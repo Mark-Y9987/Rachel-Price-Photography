@@ -99,7 +99,7 @@ li {
   -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
-  width: 97.5%;
+  width: 100%;
   left: 0;
   top: 0;
   }
