@@ -1,0 +1,161 @@
+
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+body, html {
+ background-image: url('../Images/circuit.png');
+ color: #828282;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 70%;
+  display: block;
+  
+}
+
+p {
+  max-width: 70%;
+  margin: auto;
+  padding: 12px 0;
+  color: #828282;
+}
+
+i {
+  color: #39c1c1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.main-container {
+  margin: auto;
+  background-color: #ffffff;
+  text-align: center;
+  width: 75%;
+}
+
+h1 {
+  text-align: center;
+  color: #828282;
+  padding: 12px;
+  margin: auto;
+}
+
+nav{
+  width: 70%;
+  margin: 0 auto;
+ }
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-box {
+  display: block;
+  background-color: #c2c0c0;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.nav-box:hover{
+  background-color: #39c1c1;
+  transition: 1s;
+}
+
+li { 
+  list-style-type: none;
+  padding: 12px;
+}
+
+.socialLinks {
+  display: inline-block;
+}
+
+/* Slideshow Styling */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+/* .slider {
+	width: 100%;
+	margin: 2em auto;
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+  position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+  width: 100%;
+	height: 100%;
+	opacity: 0;
+  transition: opacity 3s linear;
+  overflow: hidden;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+} */
+
+/* Footer Styling */
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.mobile-contact {
+  font-weight: bold;
+}
+.contact-sep {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(102, 155, 190, 0.75), rgba(0, 0, 0, 0));
+}
