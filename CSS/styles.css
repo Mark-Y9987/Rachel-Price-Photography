@@ -24,13 +24,15 @@ img {
 p {
   max-width: 70%;
   margin: auto;
-  padding: 12px 0;
+  padding: 12px;
   color: #828282;
 }
 
 i {
   color: #39c1c1;
+  margin: 12px;
 }
+
 
 a {
   text-decoration: none;
@@ -58,8 +60,13 @@ nav{
   margin: 0 auto;
  }
 
+ footer li {
+   padding: 12px;
+ }
+
 .nav-list {
   text-align: center;
+  padding: 12px;
 }
 
 .nav-box {
@@ -77,11 +84,11 @@ nav{
 
 li { 
   list-style-type: none;
-  padding: 12px;
 }
 
 .socialLinks {
   display: inline-block;
+  padding: 12px;
 }
 
 /* Slideshow Styling */
